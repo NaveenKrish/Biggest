@@ -1,6 +1,46 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+class biggest
+{
+public static void main(String args[])
+ {
+ int a,b,c,d,e,f,g,h,i,j;
+  a=Integer.parseInt(args[0]);
+  b=Integer.parseInt(args[1]);
+  c=Integer.parseInt(args[2]);  
+  d=Integer.parseInt(args[3]);
+  e=Integer.parseInt(args[4]);
+  f=Integer.parseInt(args[5]);
+  g=Integer.parseInt(args[6]);
+  h=Integer.parseInt(args[7]);
+  i=Integer.parseInt(args[8]);
+  j=Integer.parseInt(args[9]);
+   if(a>b&&a>c&&a>d&&a>e&&a>f&&a>g&&a>h&&a>i&&a>j)
+   System.out.printf("Biggest:" + a);
+   
+   else if(b>a&&b>c&&b>d&&b>e&&b>f&&b>g&&b>h&&b>i&&b>j)
+   System.out.printf("Biggest:" + b);
+   
+   else if(c>a&&c>b&&c>d&&c>e&&c>f&&c>g&&c>h&&c>i&&c>j)
+   System.out.printf("Biggest:" + c);
+   
+   else if(d>a&&d>b&&d>c&&d>e&&d>f&&d>g&&d>h&&d>i&&d>j)
+   System.out.printf("Biggest:" + d);
+   
+   else if(e>a&&e>b&&e>c&&e>d&&e>f&&e>g&&e>h&&e>i&&e>j)
+   System.out.printf("Biggest:" + e);
+   
+   else if(f>a&&f>b&&f>c&&f>d&&f>e&&f>g&&f>h&&f>i&&f>j)
+   System.out.printf("Biggest:" + f);
+   
+   else if(g>a&&g>b&&g>c&&g>d&&g>e&&g>f&&g>h&&g>i&&g>j)
+   System.out.printf("Biggest:" + g);
+   
+   else if(h>a&&h>b&&h>c&&h>d&&h>e&&h>f&&h>g&&h>i&&h>j)
+   System.out.printf("Biggest:" + h);
+   
+   else if(i>a&&i>b&&i>c&&i>d&&i>e&&i>f&&i>g&&i>h&&i>j)
+   System.out.printf("Biggest:" + i);
+   
+   else if(j>a&&j>b&&j>c&&j>d&&j>e&&j>f&&j>g&&j>h&&j>i)
+   System.out.printf("Biggest:" + j);
+  }
+}
